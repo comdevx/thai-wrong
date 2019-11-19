@@ -6,7 +6,7 @@
 ``nodejs
 const thaiWrong = require('../index')
 
-console.log(thaiWrong.cut('ดัสวสีจา้ สดทอบบะรบดตัำค')) # returns [ 'สวัสดี', 'จ้า', 'ทดสอบ', 'ระบบ', 'ตัด', 'คำ' ]
+thaiWrong.cut('ดัสวสีจา้ สดทอบบะรบดตัำค') # returns [ 'สวัสดี', 'จ้า', 'ทดสอบ', 'ระบบ', 'ตัด', 'คำ' ]
 ```
 
 ## Usage addon
