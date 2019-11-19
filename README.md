@@ -3,7 +3,7 @@
 
 ## Usage
 
-``nodejs
+```nodejs
 const thaiWrong = require('../index')
 
 thaiWrong.cut('ดัสวสีจา้ สดทอบบะรบดตัำค') # returns [ 'สวัสดี', 'จ้า', 'ทดสอบ', 'ระบบ', 'ตัด', 'คำ' ]
@@ -11,7 +11,7 @@ thaiWrong.cut('ดัสวสีจา้ สดทอบบะรบดตั�
 
 ## Usage addon
 
-``nodejs
+```nodejs
 const thaiWrong = require('../index')
 
 thaiWrong.addon(['test', 'english'])
