@@ -4,7 +4,8 @@ on: [push]
 
 jobs:
   build:
-
+    name: 'test deploy'
+    if: github.ref == 'red/heads/master'
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
